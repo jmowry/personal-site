@@ -31,12 +31,13 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px; /* 50px of padding to make sure the navbar doesn't overlap content */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(/personal-site/main/img/keys2.jpg) no-repeat center center;
     background-size: cover;
+    height: 55%;
 }
 
 .intro-message {
@@ -133,6 +134,14 @@ h6 {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+}
+
+.profile-picture {
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    height: 70px;
+    float: left;
+    border-radius: 100%;
+    margin: 0 20px;
 }
 
 @media(max-width:1199px) {
