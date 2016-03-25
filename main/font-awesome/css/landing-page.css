@@ -192,3 +192,18 @@ p.copyright {
   margin-bottom: 20px;
   color: #999;
 }
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  /*margin-top: 20px;*/
+  margin-bottom: 0;
+  font-size: 66px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}

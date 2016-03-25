@@ -66,68 +66,126 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-            <hr class="featurette-divider">
-
-      <div class="blog-header">
-        <h1 class="blog-title">How I Got Started</h1>
-      </div>
-
-      <p class="lead">At the South Dakota School of Mines & Technology, our curriculum has a heavy C/C++ focus that, I feel, gives us a very good foundation in low-level programming and really understanding how things work "under the hood".</p>
-
-      <!-- For a little bit of padding/division -->
       <hr class="featurette-divider">
 
-      <!-- featurettes -->
+      <div class="blog-post">
+        <div class="blog-header">
+          <h1 class="lead blog-title">Portfolio</h1>
+          <p class="lead blog-description">A description of my professional/technical experience, and some of my various projects.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <p class="lead blog-post-title">How I Got Started</p>
+            <p class="blog-post-meta">a brief-ish introduction </p>
+
+          <p class="lead">At the South Dakota School of Mines & Technology, our curriculum has a heavy C/C++ focus that, I feel, gives us a very good foundation in low-level programming and really understanding how things work "under the hood".</p>
+
+          <p class="lead">Somewhere around the end of my sophomore year, I began really branching out and getting more acquainted with "pure OOP" languages like Java and C#. I started developing MVC desktop applications using out-of-the-box template programs in Visual Studio in my first internship with Emit Technologies. This really got my feet wet in the business world and showed me that there was a bit more to software engineering than managing my own memory and constructing my own low-level data structures.</p>
+
+          <p class="lead">From there, I began taking an interest in mobile development and used my Software Engineering class as a springboard into, with some good friends and classmates, pulling together and writing a business plan for a theoretical Android application. We went on to win an award in our department,  dubbed "The Butterfield Cup", and decided to attend local business accelerators and entrepreneurship conventions to become familiar with business, marketing, intellectual property rights, and so much more that is only on the horizons of most developers' focus.</p>
+
+          <p class="lead">Today, Crowd Control has blossomed into a cross-platform (iOS/Androic) application with five collaborators including myself. We started development on the project at the beginning of the Fall 2015 semester, for our Senior Design classes. We have taken part of a couple noteworthy competitions (more information?) in an effort to better establish ourselves as a startup software company in the Black Hills, and to take Crowd Control as far as we can. </p>
+
+          <p class="lead">With all this, I feel that my unique business-oriented perspective has given me an edge over my fellow developers. I have been trained to be able to see the "big picture" when developing software, and as a result of all the exposure we have received through Crowd Control, gained a lot of experience in communicating with others. Not to mention getting <em>very</em> familiar with Java.</p>
+      </div>
+
+      <div class="blog-post">
+        <!-- For a little bit of padding/division -->
+        <hr class="featurette-divider">
+
+        <div class="blog-header">
+          <h1 class="lead blog-title">Some of my projects</h1>
+          <hr>
+        </div>
+      </div>
+
+    <!-- featurettes -->
+      <!-- Crowd Control -->
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">In the beginning <span class="text-muted">How I got started</span></h2>
-          <p class="lead"> things </p>
+          <h2 class="featurette-heading">Crowd Control <span class="text-muted">"Easing the experience of going out"</span></h2>
+          <p class="lead"> Our "flagship" mobile application, written and owned fully by Bowtaps, LLC, is group management application that helps users find other users in their groups of friends. Crowd Control features group messaging, group management, and GPS locations for its users. The idea, somewhat jokingly, spawned more or less out of necessity; everybody has that friend who you just can't seem to track down when you go out on town.</p>
 
-          <p class="lead">Somewhere around the beginning of my junior year, I began really branching out and getting more acquainted with "pure OOP" languages like Java and C#. I started developing MVC desktop applications using out-of-the-box template programs in Visual Studio in my first internship with Emit Technologies. This really got my feet wet in the business world and showed me that there was a bit more to software engineering than managing my own memory and constructing my own low-level data structures.</p>
+          <p class="lead blog-description">Languages: Java </p>
+          <p class="lead blog-description">Tools: Android Studio, Google APIs (Maps, Location Services, etc), Sinch, Parse </p>
+
+          <div class="container">
+            <div class="row">
+                  <a class="btn btn-primary" href="https://github.com/Deaboy/CrowdControl-Android">View on GitHub</a>        
+            </div>
+          </div>
+
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="/personal-site/main/img/crowdcontrol.PNG" alt="Crowd Control">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
+      <!-- Weather App -->
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Aaron Rodgers <span class="text-muted">He really, really likes women.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Weather App<span class="text-muted"> GUI (CSC 468)</span></h2>
+          <p class="lead">A fairly rudimentary exercise in building a desktop GUI application in Java. This project simply outlined that we design and implement an interface to view various weather data, represented by XML files. The data provided was quite large, as the data was acquired every 15 minutes for a few years. We were tasked with parsing those XML files and displaying the information via graphs and various statistics. In the end, though there were some bugs with out implementation, it gave us a very good crash course to desktop GUIs using Java Swing and the JFreeChart package.</p>
+
+          <p class="lead blog-description">Languages: Java </p>
+          <p class="lead blog-description">Tools: Netbeans, Swing, JFreeChart (package) </p>
+
+          <div class="container">
+            <div class="row">
+                  <a class="btn btn-primary" href="https://github.com/johnmangold/WeatherDisplay">View on GitHub</a>        
+            </div>
+          </div>
+
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="/personal-site/main/img/somerain.png" alt="Weather App for GUI">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
+      <!-- Dash -->
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">WEW lads. u wot m8</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Dash Shell <span class="text-muted">Operating Systems (CSC 456)</span></h2>
+          <p class="lead">This was our final project for our Operating Systems course. The goal of this program was to construct a diagnostic shell (DaSh) to give us experience in the handling of processes and system calls. Included in this program is also a scheduler to emulate what a standard Linux operating system does to handle scheduling of various jobs. </p>
+
+          <p class="lead blog-description">Languages: C++ </p>
+          <p class="lead blog-description">Tools: gdb, Unix/Linux (familiarization) </p>
+
+          <div class="container">
+            <div class="row">
+                  <a class="btn btn-primary" href="https://github.com/Deaboy/CSC456_Program3">View on GitHub</a>        
+            </div>
+          </div>
+
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="/personal-site/main/img/generic-terminal.png" alt="Generic terminal picture (labeled for reuse!)">
         </div>
       </div>
-        <div class="container">
-          <div class="row">
-            <h2>My Résumé</h2>
-                <a class="btn btn-primary view-pdf" href="res/Spring2016_Resume_General.pdf">View PDF</a>        
-          </div>
-        </div>
+
       <hr class="featurette-divider">
 
       <!-- /featurettes -->
 
+      <div class="blog-post">
+        <div class="row">
+          <p class="lead blog-post-title">My Résumé</p>
+          <p class="lead">This is just a brief introduction to the various projects I have contributed to and some of the experience I have. I will try to stay up to date with various projects that I complete and keep a fresh supply of content to this page, but provide no guarantee. </p>
+
+          <p class="lead">Below, I have linked my résumé. Please, feel free to view it and contact me if you wish. My contact information can be found here (link this), as well as on the résumé itself.</p>
+              <a class="btn btn-primary view-pdf" href="res/Spring2016_Resume_General.pdf">View PDF</a>        
+        </div>
+      </div>
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Joseph Mowry &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2016 Joseph Mowry </p>
         <a href="https://www.facebook.com/joe.mowry.9" target="_blank"><img src="img/facebook-icon64.png"></a>
         <a href="https://www.linkedin.com/in/joseph-mowry-254011ba" target="_blank"><img src="img/linkedin-icon64.jpg"></a>
         <a href="https://github.com/jmowry" target="_blank"><img src="img/github-icon64.png"></a>
