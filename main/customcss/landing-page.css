@@ -1,13 +1,13 @@
 /*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * General styles for the landing page. Works well with Bootstrap.
  */
 
 body,
 html {
     width: 100%;
     height: 100%;
+    padding-bottom: 40px;
+    color: #5a5a5a;
 }
 
 body,
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;    /*The "Bootstrap" font.*/
     font-weight: 700;
 }
 
@@ -31,7 +31,7 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* 50px of padding to make sure the navbar doesn't overlap content */
+    padding-top: 50px; /* 50px of padding to make sure the navbar doesn't overlap content...feels sort of hacky. */
     /*padding-bottom: 50px;*/
     text-align: center;
     color: #f8f8f8;
@@ -53,7 +53,7 @@ h6 {
 }
 
 .intro-divider {
-    width: 400px;
+    width: 600px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -112,23 +112,6 @@ h6 {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
-
-.banner ul {
-    margin-bottom: 0;
 }
 
 .banner-social-buttons {
@@ -198,7 +181,7 @@ p.copyright {
   padding-bottom: 20px;
 }
 .blog-title {
-  /*margin-top: 20px;*/
+  /*margin-top: 20px; */    /*Might be necessary again later. Preferential.*/
   margin-bottom: 0;
   font-size: 66px;
   font-weight: normal;
